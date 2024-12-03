@@ -20,8 +20,9 @@ BareStyles is a lightweight, TailwindCSS-based starter kit that provides a set o
 Install BareStyles via npm:
 
 ```bash
-npm install barestyles
-yarn add barestyles
+npm install barestyles -d
+yarn add barestyles -D
+bun install barestyles -d
 ```
 
 ---
