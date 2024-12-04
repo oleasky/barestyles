@@ -1,6 +1,6 @@
 {
   "name": "barestyles",
-  "version": "0.0.139",
+  "version": "0.0.140",
   "keywords": ["tailwindcss", "plugin", "jumpstart"],
   "author": "Oleasky",
   "license": "MIT",
@@ -10,6 +10,7 @@
     },
 "main": "dist/index.js",
 "types": "dist/index.d.ts",
+"files": ["dist"],
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^22.10.1",
