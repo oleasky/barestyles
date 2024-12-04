@@ -17,7 +17,7 @@ export const themeExtend = {
       full: "100%",
     },
     fontSize: {
-      "fluid-xs": "clamp(0.75rem, 1vw, 1.25rem)",
+      "fluid-xs": "clamp(0.9rem, 1vw, 1.25rem)",
       "fluid-sm": "clamp(1rem, 1.5vw, 1.5rem)",
       "fluid-md": "clamp(1.25rem, 2vw, 2rem)",
       "fluid-lg": "clamp(1.5rem, 2.5vw, 2.5rem)",
