@@ -48,6 +48,7 @@ export const base = ({ addBase, theme }: PluginAPI) => {
       lineHeight: theme('lineHeight.relaxed', '1.7'),
       width: '100%',
       maxWidth: '80ch',
+      fontFamily: theme('fontFamily.sans'),
     },
     ol: {
       paddingLeft: theme('spacing.6', '1.5rem'),
@@ -55,8 +56,10 @@ export const base = ({ addBase, theme }: PluginAPI) => {
       lineHeight: theme('lineHeight.relaxed', '1.7'),
       width: '100%',
       maxWidth: '80ch',
+      fontFamily: theme('fontFamily.sans'),
     },
     small: {
+      fontFamily: theme('fontFamily.sans'),
       fontSize: theme('fontSize.sm', '0.875rem'),
       fontStyle: 'italic',
     },
