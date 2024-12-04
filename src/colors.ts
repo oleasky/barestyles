@@ -1,8 +1,7 @@
 import { PluginAPI } from 'tailwindcss/types/config';
 
-// Function to generate color utilities dynamically
 export const generateColorUtilities = ({ theme, addUtilities }: PluginAPI) => {
-  // Fetch colors from the project's theme or use slate-based defaults
+  
   const primaryColors = theme('colors.primary', {
     'default': '#64748B', // Slate 500
     'light': '#CBD5E1',   // Slate 300
@@ -21,12 +20,7 @@ export const generateColorUtilities = ({ theme, addUtilities }: PluginAPI) => {
     'dark': '#1E293B',    // Slate 800
   });
 
-  console.log('Primary Colors:', primaryColors);
-console.log('Secondary Colors:', secondaryColors);
-console.log('Tertiary Colors:', tertiaryColors);
 
-
-  // Utility generation function
   const createUtilities = (colors: Record<string, string>, prefix: string) => {
     const utilities: Record<string, Record<string, string>> = {};
     Object.entries(colors).forEach(([key, value]) => {
@@ -37,12 +31,12 @@ console.log('Tertiary Colors:', tertiaryColors);
     return utilities;
   };
 
-  // Generate utilities for primary, secondary, and tertiary colors
+
   const primaryUtilities = createUtilities(primaryColors, 'primary');
   const secondaryUtilities = createUtilities(secondaryColors, 'secondary');
   const tertiaryUtilities = createUtilities(tertiaryColors, 'tertiary');
 
-  // Add the utilities to Tailwind
+
   addUtilities({
     ...primaryUtilities,
     ...secondaryUtilities,

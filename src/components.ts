@@ -35,5 +35,11 @@ export const components = ({ addComponents, theme }: PluginAPI) => {
       boxShadow: theme('boxShadow.md', '0 4px 6px rgba(0, 0, 0, 0.1)'),
       backgroundColor: theme('colors.white', '#FFFFFF'),
     },
+
+    // Content wrapper
+    '.content': {
+      width: '100%',
+      padding: theme('spacing.fluid-lg', '10%'),
+    },
   });
 };
