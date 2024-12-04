@@ -13,12 +13,14 @@ export const base = ({ addBase, theme }: PluginAPI) => {
     },
     h2: {
       marginBottom: theme('spacing.4', '1rem'),
+      lineHeight: theme('lineHeight.tight', '1.2'),
       fontSize: 'clamp(1.8rem, 3.3vw, 3.3rem)',
       fontWeight: theme('fontWeight.semibold', '600'),
       fontFamily: theme('fontFamily.sans'),
     },
     h3: {
       marginTop: theme('spacing.10', '2.5rem'),
+      lineHeight: theme('lineHeight.tight', '1.2'),
       fontSize: 'clamp(1.2rem, 1.6vw, 1.6rem)',
       fontFamily: theme('fontFamily.sans'),
     },
