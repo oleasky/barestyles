@@ -42,7 +42,7 @@ export const base = ({ addBase, theme }: PluginAPI) => {
       width: '100%',
       maxWidth: '80ch',
       fontFamily: theme('fontFamily.sans'),
-      fontSize: theme('fontSize.sm', '1rem'),
+      fontSize: theme('fontSize.fluid-xs', '1rem'),
     },
     ul: {
       paddingLeft: theme('spacing.6', '1.5rem'),
