@@ -37,6 +37,7 @@ export default plugin(function (options) {
       "fluid-4xl": "clamp(3rem, 5vw, 5rem)",
       "fluid-5xl": "clamp(4rem, 6vw, 6rem)",
     },
+  
   }
 }
 );
