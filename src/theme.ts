@@ -29,6 +29,8 @@ export const themeExtend = {
     },
     fontFamily:{
       H1: "var(--font-family-h1)",
+      headings: "var(--font-family-headings)",
+      body: "var(--font-family-body)",
     }
   };
   

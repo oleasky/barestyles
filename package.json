@@ -1,12 +1,12 @@
 {
   "name": "barestyles",
-  "version": "0.0.140",
+  "version": "0.0.141",
   "keywords": ["tailwindcss", "plugin", "jumpstart"],
   "author": "Oleasky",
   "license": "MIT",
   "repository": {
       "type": "git",
-      "url": "https://github.com/eab-agency/barestyles.git"
+      "url": "https://github.com/oleasky/barestyles.git"
     },
 "main": "dist/index.js",
 "types": "dist/index.d.ts",
