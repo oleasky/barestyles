@@ -10,6 +10,11 @@ export declare const themeExtend: {
         "fluid-3xl": string;
         "fluid-4xl": string;
         "fluid-5xl": string;
+        "fluid-6xl": string;
+        "fluid-7xl": string;
+        "fluid-8xl": string;
+        "fluid-9xl": string;
+        "fluid-10xl": string;
     };
     maxWidth: {
         narrow: string;
@@ -17,6 +22,7 @@ export declare const themeExtend: {
         full: string;
     };
     fontSize: {
+        "fluid-2xs": string;
         "fluid-xs": string;
         "fluid-sm": string;
         "fluid-md": string;
@@ -26,6 +32,11 @@ export declare const themeExtend: {
         "fluid-3xl": string;
         "fluid-4xl": string;
         "fluid-5xl": string;
+        "fluid-6xl": string;
+        "fluid-7xl": string;
+        "fluid-8xl": string;
+        "fluid-9xl": string;
+        "fluid-10xl": string;
     };
     fontFamily: {
         H1: string;
