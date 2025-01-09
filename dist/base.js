@@ -46,7 +46,7 @@ const base = ({ addBase, theme }) => {
             lineHeight: theme('lineHeight.relaxed', '1.7'),
             width: '100%',
             maxWidth: '80ch',
-            fontSize: theme('fontSize.fluid-sm', 'clamp(0.75rem, 1.2vw, 1rem)'),
+            fontSize: theme('fontSize.fluid-sm', 'clamp(0.85rem, 1.2vw, 1rem)'),
         },
         ul: {
             paddingLeft: theme('spacing.6', '1.5rem'),

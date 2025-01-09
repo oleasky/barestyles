@@ -23,9 +23,9 @@ export const themeExtend = {
   },
   fontSize: {
     "fluid-2xs": "clamp(0.5rem, 0.8vw, 0.75rem)", // Smallest, suitable for fine text
-    "fluid-xs": "clamp(0.625rem, 1vw, 0.875rem)", // Slightly larger
-    "fluid-sm": "clamp(0.75rem, 1.2vw, 1rem)", // Base font size for small text
-    "fluid-md": "clamp(1rem, 1.5vw, 1.25rem)", // Default paragraph size
+    "fluid-xs": "clamp(0.85rem, 1vw, 1rem)", // Slightly larger
+    "fluid-sm": "clamp(0.95rem, 1.25vw, 1.25rem)", // Base font size for small text
+    "fluid-md": "clamp(1rem, 1.5vw, 1.5rem)", // Default paragraph size
     "fluid-lg": "clamp(1.25rem, 2vw, 1.75rem)", // Larger paragraph size or minor heading
     "fluid-xl": "clamp(1.5rem, 2.5vw, 2.25rem)", // Subheading or larger text
     "fluid-2xl": "clamp(2rem, 3vw, 3rem)", // Secondary heading (H3)
@@ -42,6 +42,26 @@ export const themeExtend = {
     H1: "var(--font-family-h1)",
     headings: "var(--font-family-headings)",
     body: "var(--font-family-body)",
-  }
+  },
+  screens: {
+    'mq-2000': '125rem',  
+    'mq-1900': '118.75rem', 
+    'mq-1800': '112.5rem', 
+    'mq-1700': '106.25rem',
+    'mq-1600': '100rem', 
+    'mq-1500': '93.75rem',
+    'mq-1400': '87.5rem', 
+    'mq-1300': '81.25rem', 
+    'mq-1200': '75rem',
+    'mq-1100': '68.75rem',
+    'mq-1000': '62.5rem',
+    'mq-900': '56.25rem',
+    'mq-800': '50rem',
+    'mq-700': '43.75rem',
+    'mq-600': '37.5rem',
+    'mq-500': '31.25rem',
+    'mq-400': '25rem',
+    'mq-300': '18.75rem',
+  },
 };
   

@@ -43,4 +43,24 @@ export declare const themeExtend: {
         headings: string;
         body: string;
     };
+    screens: {
+        'mq-2000': string;
+        'mq-1900': string;
+        'mq-1800': string;
+        'mq-1700': string;
+        'mq-1600': string;
+        'mq-1500': string;
+        'mq-1400': string;
+        'mq-1300': string;
+        'mq-1200': string;
+        'mq-1100': string;
+        'mq-1000': string;
+        'mq-900': string;
+        'mq-800': string;
+        'mq-700': string;
+        'mq-600': string;
+        'mq-500': string;
+        'mq-400': string;
+        'mq-300': string;
+    };
 };

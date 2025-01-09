@@ -58,6 +58,28 @@ const components = ({ addComponents, theme }) => {
             height: '100%',
             border: '0',
         },
+        // Hero component
+        '.hero-image': {
+            borderTopColor: theme('colors.green.500', '#1E293B'),
+            borderTopWidth: '1rem'
+        },
+        '.hero figure::before': {
+            content: '""',
+            display: 'block',
+            position: 'absolute',
+            top: '0',
+            left: '0',
+            width: '100%',
+            height: '100%',
+            backgroundColor: 'rgba(0, 0, 0, 0.7)',
+            zIndex: '1',
+        },
+        '.hero figure img': {
+            zIndex: '0',
+        },
+        '.hero figure+div': {
+            color: theme('colors.white', '#FFFFFF'),
+        }
     });
 };
 exports.components = components;
