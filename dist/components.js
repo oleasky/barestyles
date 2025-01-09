@@ -79,7 +79,7 @@ const components = ({ addComponents, theme }) => {
         },
         '.hero figure+div': {
             color: theme('colors.white', '#FFFFFF'),
-        }
+        },
     });
 };
 exports.components = components;

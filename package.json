@@ -23,6 +23,7 @@
     "typescript": "^5.7.2"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "push": "tsc && yalc push"
   }
 }
