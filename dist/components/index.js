@@ -5,12 +5,14 @@ const containermax_1 = require("./containermax");
 const button_1 = require("./button");
 const card_1 = require("./card");
 const content_1 = require("./content");
+const videoContainer_1 = require("./videoContainer");
+const hero_1 = require("./hero");
 const components = (pluginAPI) => {
     (0, containermax_1.container)(pluginAPI);
     (0, button_1.button)(pluginAPI);
     (0, card_1.card)(pluginAPI);
     (0, content_1.content)(pluginAPI);
-    // videoContainer(pluginAPI);
-    // hero(pluginAPI);
+    (0, videoContainer_1.videoContainer)(pluginAPI);
+    (0, hero_1.hero)(pluginAPI);
 };
 exports.components = components;

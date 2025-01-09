@@ -10,6 +10,6 @@ export const components = (pluginAPI: any) => {
   button(pluginAPI);
   card(pluginAPI);
   content(pluginAPI);
-  // videoContainer(pluginAPI);
-  // hero(pluginAPI);
+  videoContainer(pluginAPI);
+  hero(pluginAPI);
 };
