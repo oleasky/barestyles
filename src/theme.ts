@@ -12,9 +12,9 @@ export const themeExtend = {
       "fluid-5xl": "clamp(12rem, 16vw, 20rem)",
     },
     maxWidth: {
-      narrow: "55rem",
-      wide: "85rem",
-      full: "100%",
+      "narrow": "55rem",
+      "wide": "85rem",
+      "full": "100%",
     },
     fontSize: {
       "fluid-xs": "clamp(0.9rem, 1vw, 1.25rem)",

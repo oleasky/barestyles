@@ -17,7 +17,6 @@
   "files": [
     "dist"
   ],
-  "dependencies": {},
   "devDependencies": {
     "@types/node": "^22.10.1",
     "tailwindcss": "^3.4.16",

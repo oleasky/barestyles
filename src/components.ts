@@ -20,7 +20,7 @@ export const components = ({ addComponents, theme }: PluginAPI) => {
       borderRadius: theme('borderRadius.md', '0.375rem'),
       fontWeight: theme('fontWeight.medium', '500'),
       textAlign: 'center',
-      backgroundColor: theme('colors.blue.500', '#3B82F6'),
+      backgroundColor: theme('colors.slate.500', '#3B82F6'),
       color: theme('colors.white', '#FFFFFF'),
       '&:hover': {
         backgroundColor: theme('colors.blue.600', '#2563EB'),
