@@ -7,6 +7,7 @@ const card_1 = require("./card");
 const content_1 = require("./content");
 const videoContainer_1 = require("./videoContainer");
 const hero_1 = require("./hero");
+const highlight_1 = require("./highlight");
 const components = (pluginAPI) => {
     (0, containermax_1.container)(pluginAPI);
     (0, button_1.button)(pluginAPI);
@@ -14,5 +15,6 @@ const components = (pluginAPI) => {
     (0, content_1.content)(pluginAPI);
     (0, videoContainer_1.videoContainer)(pluginAPI);
     (0, hero_1.hero)(pluginAPI);
+    (0, highlight_1.highlight)(pluginAPI);
 };
 exports.components = components;
