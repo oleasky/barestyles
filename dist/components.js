@@ -80,6 +80,11 @@ const components = ({ addComponents, theme }) => {
         '.hero figure+div': {
             color: theme('colors.white', '#FFFFFF'),
         },
+        // Mautic Form Styling
+        'FormHide': {
+            display: 'none',
+            visibility: 'hidden',
+        }
     });
 };
 exports.components = components;

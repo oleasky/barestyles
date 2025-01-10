@@ -89,5 +89,12 @@ export const components = ({ addComponents, theme }: PluginAPI) => {
       color: theme('colors.white', '#FFFFFF'),
     },
 
+    // Mautic Form Styling
+
+    'FormHide': {
+      display: 'none',
+      visibility: 'hidden',
+    }
+
   });
 };
