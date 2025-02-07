@@ -34,7 +34,15 @@
   --text-fluid-3xl: clamp(2rem, 3vw, 3rem); /* 48px */
   --text-fluid-4xl: clamp(3rem, 4vw, 4rem); /* 64px */
   --text-fluid-5xl: clamp(4rem, 5vw, 5rem); /* 80px */
+  
+  
+  --container-narrow: 45rem; /* 720 */
+  --container-default: 80rem; /* 1280 */
+  --container-wide: 90rem; /* 1440 */
+  --container-full: 100%;
 }
+
+
 
 @utility container-* {
   max-width: calc(--value(integer) * 1rem);

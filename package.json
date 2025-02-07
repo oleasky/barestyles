@@ -1,10 +1,11 @@
 {
   "name": "barestyles",
-  "version": "0.1.6",
+  "version": "1.0.0",
   "keywords": [
     "tailwindcss",
     "plugin",
-    "jumpstart"
+    "css",
+    "utilities"
   ],
   "author": "Oleasky",
   "license": "MIT",
@@ -12,18 +13,17 @@
     "type": "git",
     "url": "https://github.com/oleasky/barestyles.git"
   },
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/barestyles.min.css",
+  "style": "dist/barestyles.min.css", 
   "files": [
     "dist"
   ],
-  "devDependencies": {
-    "@types/node": "^22.10.1",
-    "tailwindcss": "^4.0.0",
-    "typescript": "^5.7.2"
-  },
   "scripts": {
-    "build": "tsc",
-    "push": "tsc && yalc push"
+    "build": "mkdir -p dist && cp src/*.css dist/ && npx cleancss -o dist/barestyles.min.css dist/barestyles.css",
+    "prepublishOnly": "npm run build",
+    "push": "yalc push"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3"
   }
 }
