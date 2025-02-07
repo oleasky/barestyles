@@ -2,107 +2,88 @@
 
 **Minimal Foundations, Maximum Possibilities**
 
-BareStyles is a lightweight, TailwindCSS-based starter kit that provides a set of foundational styles, utilities, and components. It’s designed for rapid prototyping and wireframing, giving you a solid base to start your projects while allowing you to fully customize and finalize designs.
+BareStyles is a **lightweight CSS utility package** designed to enhance your TailwindCSS projects with **predefined utility classes and base styles**. It provides foundational styles for rapid prototyping and wireframing while allowing full customization.
 
 ---
 
 ## **Features**
-
-- 📦 **Ready-to-Use**: Provides pre-configured base styles, utilities, and components.
-- ⚡ **Wireframe Starter**: A clean, minimal foundation for quick prototyping.
-- 🎨 **Customizable**: Easily extend styles to match your project’s design system.
-- 🔥 **TailwindCSS Powered**: Fully integrates with TailwindCSS for maximum flexibility.
+- 📦 **Plug & Play**: No configuration needed—just install and import.
+- ⚡ **Minimal Yet Powerful**: Provides essential styles for quick scaffolding.
+- 🎨 **Easily Extendable**: Works alongside TailwindCSS, fully customizable.
+- 🔥 **Standalone CSS Package**: No build tools required—works with any project.
 
 ---
 
 ## **Installation**
 
-Install BareStyles via npm:
+Install BareStyles via npm, Yarn, or Bun:
 
-```bash
-npm install barestyles -d
+```sh
+npm install barestyles -D
+pnpm install barestyles -D
 yarn add barestyles -D
-bun install barestyles -d
+bun install barestyles -D
 ```
 
 ---
 
 ## **Usage**
 
-1. **Add BareStyles to Your Tailwind Configuration**:
-   Include BareStyles in your `tailwind.config.js` file under the `plugins` section:
+### **1️⃣ Import BareStyles in Your Project**
+Simply import it in your main CSS file:
 
-   ```javascript
-   // tailwind.config.js
-   module.exports = {
-     content: ['./src/**/*.{html,js,ts,jsx,tsx}'],
-     theme: {
-       extend: {},
-     },
-     plugins: [require('barestyles')],
-   };
-   ```
+```css
+@import "barestyles";
+```
 
-2. **Start Prototyping**:
-   Use the base styles and utilities in your project:
-
-   ```html
-   <h1 class="text-2xl font-bold">Hello, World!</h1>
-   <p class="text-base text-gray-600">Start building your project with BareStyles.</p>
-   ```
+This will automatically include **all utility classes and base styles**.
 
 ---
 
-## **Features Included**
+### **2️⃣ Using the Predefined Utilities**
+BareStyles provides utility classes to simplify styling in Tailwind projects:
 
-### **Base Styles**
-Predefined styles for headings, paragraphs, lists, and other common elements.
-
-- **Headings (`h1`–`h6`)**: Sized and spaced for wireframing.
-- **Body Text (`p`, `ul`, `ol`)**: Clean and readable with sensible defaults.
-- **Buttons**: Basic button styles for prototyping.
-
-### **Utilities**
-Utilities for common patterns:
-- **`.sticky-footer`**: A utility for sticky footer layouts.
-- **`.container-max`**: A container with max-width settings for scaffolding.
-
-### **Components**
-Ready-to-use components:
-- **Wireframe Elements**: Basic components for rapid prototyping.
-- **Typography Utilities**: Styles to structure content.
-
----
-
-## **Customizing BareStyles**
-
-BareStyles is designed to be fully customizable. Override styles or extend them directly in your `tailwind.config.js` file:
-
-```javascript
-module.exports = {
-  theme: {
-    extend: {
-      colors: {
-        primary: '#4F46E5', // Customize the primary color
-      },
-    },
-  },
-};
+```html
+<div class="container-wide">
+  <h1 class="text-fluid-md">Welcome to BareStyles</h1>
+  <p class="text-gray-600">This package provides useful utility classes.</p>
+</div>
 ```
 
 ---
 
-## **Why BareStyles?**
+## **📌 Included Utilities**
+### **📍 Layout**
+- **`.container-wide`** → Responsive max-width container with auto margins.
 
-BareStyles is perfect for:
-- Designers and developers looking to **quickly prototype wireframes**.
-- Teams that want a **common foundation** for web app scaffolding.
-- Projects that need **minimal styles** as a starting point.
+### **📍 Typography**
+- **`.text-fluid-sm`** → Font size scales responsively using `clamp()`.
+- **`.text-fluid-md`** → Medium variant of responsive typography.
+
+
+---
+
+## **Customizing BareStyles**
+BareStyles is designed to be **fully extendable** in your Tailwind configuration.
+
+If you need to modify or override styles, extend them in your `css files` using tailwindcss ^4.0 new approach:
+
+```css
+@theme {
+  --container-narrow: 20rem;
+}
+```
+
+---
+
+## **Why Choose BareStyles?**
+- 🚀 **Speed up prototyping** with ready-to-use styles.
+- 🎯 **Reduce boilerplate** by handling base styles for you.
+- 🎨 **Fully customizable** within your TailwindCSS project.
 
 ---
 
 ## **License**
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for details.
 
 ---
