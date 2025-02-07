@@ -1,0 +1,12 @@
+@theme{
+    --breakpoints-3xs: 480px; /* 480 */
+    --breakpoints-2xs: 640px; /* 640 */
+    --breakpoints-xs: 800px; /* 800 */
+    --breakpoints-sm: 960px; /* 960 */
+    --breakpoints-md: 1080px; /* 1040 */
+    --breakpoints-lg: 1280px; /* 1280 */
+    --breakpoints-xl: 1440px; /* 1440 */
+    --breakpoints-2xl: 1760px; /* 1760 */
+    --breakpoints-3xl: 1920px; /* 1920 */
+  }
+  
