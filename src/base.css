@@ -1,0 +1,71 @@
+:root {
+  --font-body: "Inter", sans-serif;
+  --font-display: "Poppins", sans-serif;
+  --font-mono: "Fira Mono", "Courier New", Courier, monospace;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: var(--font-display);
+}
+p,
+a,
+span,
+li,
+button {
+  margin: 0;
+  font-family: var(--font-body);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}

@@ -60,6 +60,18 @@ BareStyles provides utility classes to simplify styling in Tailwind projects:
 - **`.text-fluid-sm`** → Font size scales responsively using `clamp()`.
 - **`.text-fluid-md`** → Medium variant of responsive typography.
 
+### **📍 Base Styles**
+- **`base.css`** → A foundational CSS reset for consistent styling across browsers.
+- **`--font-body`**, **`--font-display`**, **`--font-mono`** → Font variables for consistent typography.
+
+### **📍 Colors**
+- **`.color-dark-1`** to **`.color-dark-16`** → Grayscale color palette.
+- **`.color-light-1`** to **`.color-light-16`** → Grayscale color palette.
+
+### **📍 Spacing**
+- **`.spacing-10xs`** to **`.spacing-10xl`** → Fixed spacing values.
+- **`.spacing-fluid-10xs`** to **`.spacing-fluid-10xl`** → Fluid spacing values.
+
 
 ---
 
