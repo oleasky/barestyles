@@ -1,0 +1,35 @@
+:root {
+  --color-dark-1: #000000;
+  --color-dark-2: #111111;
+  --color-dark-3: #222222;
+  --color-dark-4: #333333;
+  --color-dark-5: #444444;
+  --color-dark-6: #555555;
+  --color-dark-7: #666666;
+  --color-dark-8: #777777;
+  --color-dark-9: #888888;
+  --color-dark-10: #999999;
+  --color-dark-11: #aaaaaa;
+  --color-dark-12: #bbbbbb;
+  --color-dark-13: #cccccc;
+  --color-dark-14: #dddddd;
+  --color-dark-15: #eeeeee;
+  --color-dark-16: #ffffff;
+
+  --color-light-1: #ffffff;
+  --color-light-2: #eeeeee;
+  --color-light-3: #dddddd;
+  --color-light-4: #cccccc;
+  --color-light-5: #bbbbbb;
+  --color-light-6: #aaaaaa;
+  --color-light-7: #999999;
+  --color-light-8: #888888;
+  --color-light-9: #777777;
+  --color-light-10: #666666;
+  --color-light-11: #555555;
+  --color-light-12: #444444;
+  --color-light-13: #333333;
+  --color-light-14: #222222;
+  --color-light-15: #111111;
+  --color-light-16: #000000;
+}

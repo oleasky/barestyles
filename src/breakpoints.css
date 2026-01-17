@@ -1,4 +1,4 @@
-@theme {
+:root {
   --breakpoint-3xs: 480px; /* 480 */
   --breakpoint-2xs: 640px; /* 640 */
   --breakpoint-xs: 800px; /* 800 */

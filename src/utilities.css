@@ -1,5 +1,10 @@
-@theme {
+:root {
   /** Spacing */
+  --spacing-10xs: 0.05rem; /* 0.8px */
+  --spacing-9xs: 0.075rem; /* 1.2px */
+  --spacing-8xs: 0.1rem; /* 1.6px */
+  --spacing-7xs: 0.125rem; /* 2px */
+  --spacing-6xs: 0.18rem; /* 2.88px */
   --spacing-2xs: 0.25rem; /* 4px */
   --spacing-xs: 0.5rem; /* 8px */
   --spacing-sm: 0.75rem; /* 12px */
@@ -10,8 +15,18 @@
   --spacing-3xl: 3rem; /* 48px */
   --spacing-4xl: 4rem; /* 64px */
   --spacing-5xl: 5rem; /* 80px */
+  --spacing-6xl: 6rem; /* 96px */
+  --spacing-7xl: 7rem; /* 112px */
+  --spacing-8xl: 8rem; /* 128px */
+  --spacing-9xl: 9rem; /* 144px */
+  --spacing-10xl: 10rem; /* 160px */
 
   /** Fluid Spacing */
+  --spacing-fluid-10xs: clamp(0.05rem, 0.075vw, 0.075rem);
+  --spacing-fluid-9xs: clamp(0.075rem, 0.1vw, 0.1rem);
+  --spacing-fluid-8xs: clamp(0.1rem, 0.125vw, 0.125rem);
+  --spacing-fluid-7xs: clamp(0.125rem, 0.18vw, 0.18rem);
+  --spacing-fluid-6xs: clamp(0.18rem, 0.25vw, 0.25rem);
   --spacing-fluid-2xs: clamp(0.15rem, 0.25vw, 0.25rem);
   --spacing-fluid-xs: clamp(0.25rem, 0.5vw, 0.5rem);
   --spacing-fluid-sm: clamp(0.5rem, 0.75vw, 0.75rem);
@@ -22,6 +37,11 @@
   --spacing-fluid-3xl: clamp(2.5rem, 3vw, 3rem);
   --spacing-fluid-4xl: clamp(3rem, 4vw, 4rem);
   --spacing-fluid-5xl: clamp(4rem, 5vw, 5rem);
+  --spacing-fluid-6xl: clamp(5rem, 6vw, 6rem);
+  --spacing-fluid-7xl: clamp(6rem, 7vw, 7rem);
+  --spacing-fluid-8xl: clamp(7rem, 8vw, 8rem);
+  --spacing-fluid-9xl: clamp(8rem, 9vw, 9rem);
+  --spacing-fluid-10xl: clamp(9rem, 10vw, 10rem);
 
   /** Fluid Font-sizes */
   --text-fluid-2xs: clamp(0.5rem, 0.75vw, 0.75rem); /* 12px */

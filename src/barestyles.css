@@ -1,2 +1,4 @@
+@import "./base.css";
+@import "./colors.css";
 @import "./utilities.css";
 @import "./breakpoints.css";
